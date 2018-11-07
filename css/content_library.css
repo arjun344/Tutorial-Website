@@ -1,0 +1,41 @@
+.container
+{
+	margin: 0 !important;
+	border: 0 !important;
+	margin-top: 30px !important;
+	margin-left: 60px !important;
+}
+
+.col-md-3
+{
+	min-height: 100px !important;
+}
+
+.card-desc
+{
+	
+	margin:0 !important;
+	padding:2px !important;
+	padding-left: 10px !important;
+}
+
+.card-content
+{
+	min-height: 30px !important;
+	transition: 0.2s;
+}
+
+.card-content:hover
+{
+	min-height: 30px !important;
+	transform: scale(1.02);
+	background-color: #f2f4f7;
+}
+
+#heding
+{
+	background-color: #5ea35e !important;
+	border-top-right-radius: 15px !important;
+	border-top-left-radius: 15px !important;
+	text-align:  center !important;
+}

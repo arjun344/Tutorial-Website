@@ -1,0 +1,18 @@
+#dialog-model {
+  position: absolute;
+  top: 100px;
+}
+
+#cancel
+{
+	margin-right: 60px ;
+}
+
+#delete
+{
+	background-color: red;
+	color: white;
+	float: right;
+	margin-right:40px;
+}
+

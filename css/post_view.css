@@ -1,0 +1,114 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.card-content {
+  background: #ffffff;
+  border: 4px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  transition: .2s;
+}
+
+.card-content:hover {
+  background: #ffffff;
+  border: 4px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+.card-content1 {
+  background: #ffffff;
+  border: 4px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  transition: .2s;
+
+}
+
+.card-content1:hover
+ {
+  background-color: #487ed6;
+  border: 4px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  color: white;
+  transform: scale(1.05);
+}
+
+.card-desc {
+  padding: 2rem;
+  font-size: 15px;
+}
+
+.card-desc1 {
+  padding: 1.25rem;
+}
+
+.check
+{
+    text-decoration: none;
+    color: black;
+}
+
+.check:hover
+{
+    text-decoration: none;
+    color: white;
+}
+
+.del
+{
+    float: right;
+    padding: 0;
+    border: none;
+    background: none;
+    margin-right: 40px;
+}
+
+.delete-btn
+{
+    color: #487ed6;
+    float: right;
+    transform: scale(2.0);
+    transition: transform .2s;
+    
+}
+
+.delete-btn:hover {
+
+    color: #FF0000;
+    transform: scale(2.5);
+    
+}
+
+.edit-btn
+{
+    color: #487ed6;
+    float: right;
+    transform: scale(1.8);
+    transition: transform .2s;
+    
+}
+
+.edit-btn:hover {
+
+    color: #487ed6;
+    transform: scale(2.5);
+    
+}
+
+.scrollable {
+    height: 500px; /* or any value */
+    overflow-y: auto;
+    margin-right: -30px; /* maximum width of scrollbar */
+    padding-right: 30px; 
+
+}
+
+.scrollable2 {
+    height: 500px; /* or any value */
+    overflow-y: auto;
+    margin-right: -30px; /* maximum width of scrollbar */
+    padding-right: 30px;
+    background: #F5F5F5; 
+
+}
+
